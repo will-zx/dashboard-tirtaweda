@@ -1,0 +1,29 @@
+{
+  "name": "dashboard-tirtaweda",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tirtaweda Smart Greenhouse — React + TypeScript Dashboard",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/format.test.js src/lib/command-confirmation.test.js"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
